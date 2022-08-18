@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">    
+    <title>AJAX Giphy App</title>
+</head>
+<body>
+<h1 class="text-center mt-4">Giphy <span class="p">P</span><span class="a">a</span><span class="r">r</span><span class="t">t</span><span class="y">y</span></h1>
+<div id="form-container" class="container-fluid row justify-content-center mt-4">
+    <form>
+        <input type="text" id="search-input" placeholder="Enter Search Term" required>
+        <button type="submit" id="search" class="btn btn-outline-light text-white">Search Giphy</button>
+        <button id="remove" class="btn btn-outline-danger">Remove Images</button>
+    </form>
+</div>
+<div id="img-container" class="container-fluid">
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>  
+<script src="app.js"></script>    
+</body>
+</html>
